@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Land Sales</title>
+    <link rel="stylesheet" href="styles/styles2.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="view.html">Land</a></li>
+                <li><a href="inquiry/Inquiry.html">Contact</a></li>
+                <li><a href="seller/register.php">Seller Register</a></li>
+                <li><a href="Landsale/register.php">Buyer Register</a></li>
+                <li><a href="inquiry/aboutUs.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+		
+  <section>
+    <h2>Search Land</h2>
+    <form method="GET" action="search.php">
+      <label for="facilities">Facilities:</label>
+      <select id="facilities" name="facilities">
+        <option value="">All</option>
+        <option value="water">Water</option>
+        <option value="school">School</option>
+        <option value="bus">Bus</option>
+        
+      </select>
+
+      <label for="extend">Extend:</label>
+      <input type="number" id="extend" name="extend">
+
+      <label for="price">Price Range:</label>
+      <input type="number" id="min_price" name="min_price" placeholder="Min">
+      <input type="number" id="max_price" name="max_price" placeholder="Max">
+
+      <label for="city">City:</label>
+      <input type="text" id="city" name="city">
+
+      <div class="form">
+        <div class="search">
+            <input class="srch" type="search" name="" placeholder="Search Land">
+            <a href="#"> <button class="btn">Search</button></a>
+        </div>
+    </form>
+  </section>	
+	
+	
+        <section id="hero">
+            <h1>Welcome to Online Land Sales</h1>
+            <p>Find your perfect piece of land today!</p>
+            <a href="properties.html" class="btn">View Properties</a>
+        </section>
+
+        <section id="featured-properties">
+            <h2>Featured Properties</h2>
+          
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Online Land Sales.</p>
+        <div>
+            <button><a href="inquiry/privacyPolicy.html">Privacy Polocy</a></button>
+          </div>  
+		  
+    </footer>
+</body>
+</html>
