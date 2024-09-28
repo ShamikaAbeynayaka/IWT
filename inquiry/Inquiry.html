@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+    <title> Inquiry Now </title>
+    <!-- add a title (a) -->
+
+</head>
+
+<body>
+
+    <img class="logo" src="images/icon.png" alt="Online Land Sales Icon Image" width="200" height="200">
+    <!-- add a logo (b) -->
+
+    <center>
+
+        <h1> LankaLands </h1>
+        <!-- add a header (c)-->
+
+        <h3 id="header"> Online Land Sales </h3>
+        <!-- add a sub-header (c) -->
+
+        <hr id="test">
+        <!-- add a horizontal line (d)-->
+
+    </center>
+<center>
+
+<ul class="menu">
+    <li class="menu"> <a href="/IWT OLS/src/homepage.html"> Home </a> </li>
+    <li class="menu"> <a href="/IWT OLS/src/view.html"> Land </a> </li>
+    <li class="menu"> <a href="/IWT OLS/src/inquiry/inquiry.html"> Contact </a> </li>
+</ul>
+<!-- add a horizontal menu (e) -->
+
+</center>
+
+    <br>
+
+    <div style="display:flex; width: 100%;">
+        <div style="width: 50%;">
+            <img src=" images/image1.jpg " width="500 " height="500 ">
+        </div>
+        <div style="width: 50%;">
+
+            <form action="inquiry_process.php" method="post">
+
+                <b> Name : </b> <br>
+                <input type="text " name="name" required> <br> <br>
+
+                <b> Phone : </b> <br>
+                <input type="phone " name="mobile" pattern="[0-9]{10}" required> <br> <br>
+
+                <b> Email : </b> <br>
+                <input type="email " name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}" placeholder="abc@gmail.com " required> <br> <br>
+
+                <b> Your Question ? </b> <br>
+                <textarea name="question" rows="8" cols="50" required> </textarea> <br> <br>
+
+                <b> Message </b> <br>
+                <textarea name="message" rows="3 " cols="50 "> </textarea> <br> <br>
+
+
+                <input type="submit" id="submitBtn" value="Submit">
+
+            </form>
+        </div>
+    </div>
+
+    <hr id="test">
+    <!-- add a horizontal line (d)-->
+
+    <center>
+
+        <p> Created by : Sandun Ranjana </p>
+        <a href="inquiry.html">Inquiry Now @LankaLands </a>
+
+    </center>
+    <!-- add a footer (g)-->
+
+    <br>
+
+    <footer>
+        <p> &copy; 2023 Online Land Sales System. All rights reserved. </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>

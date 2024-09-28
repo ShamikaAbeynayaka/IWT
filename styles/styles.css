@@ -1,0 +1,167 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+.main {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Form styles */
+.form {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.srch {
+  padding: 5px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Section styles */
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+section h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+section p {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.aboutus,
+.quickLinks,
+.contact {
+  margin-bottom: 20px;
+}
+
+.aboutus h2,
+.quickLinks h2,
+.contact h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.aboutus p {
+  margin-bottom: 10px;
+}
+
+.sci {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+.sci li {
+  margin-right: 10px;
+}
+
+.sci a {
+  color: #fff;
+}
+
+.info {
+  list-style-type: none;
+}
+
+.info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.info li span {
+  margin-right: 10px;
+}
+
+.info li a {
+  color: #fff;
+  text-decoration: none;
+}

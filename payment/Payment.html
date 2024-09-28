@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+
+	<title> PAYMENT </title>
+	<!-- add a title (a) -->
+
+</head>
+<body>
+
+	<img class="logo" src="Image/icon.png" alt="Online Land Sales Icon Image" width="200" height="200">
+	<!-- add a logo (b) -->
+
+	<center>
+	    
+		<h1> LankaLands </h1> <!-- add a header (c)-->
+
+		<h3 id="header"> Online Land Sales </h3> <!-- add a sub-header (c) -->
+
+		<hr id="test"> <!-- add a horizontal line (d)-->
+
+	</center>
+
+		<ul class="menu">
+			<li class="menu"> <a href="/IWT OLS/src/homepage.html"> Home </a> </li>
+			<li class="menu"> <a href="/IWT OLS/src/inquiry/inquiry.html"> Contact </a> </li>
+			<li class="menu"> <a href="/IWT OLS/src/inquiry/aboutUs.html"> About Us</a> </li>
+			<li class="menu"> <a href="Payment_Plans.html"> Payment_Plans </a> </li>
+		</ul>
+		<!-- add a horizontal menu (e) -->
+
+	</center>
+	
+    <h1><center>Payment By Credit Card</h1>
+
+    <h2>Please Enter Your Credit Card Details Below</h2>
+
+<form action="Payment.php" method="post">
+
+    <label>Name  On Card</label>
+        <input type ="text" name ="field1" required="true" value="" size="70"><br><br>
+		
+	<label> Card Holder Name</label>
+        <input type ="text" name ="field2" required="true" value="" size="70"><br><br>
+		
+	<label>Card Number</label>
+        <input type ="text" name ="field3" required="true" value="" size="70"><br><br>
+		
+	<label> Expiration Date</label><br><br>
+	<input type="date" name="field4"> <br>
+    
+    <br><br>
+	
+	<label> Security Code</label>
+        <input type ="text" name ="field5" required="true" value="" size="70"><br><br>
+		
+    <label> Billing Address Line 01</label>
+        <input type ="text" name ="field6" required="true" value="" size="70"><br><br>
+		
+    <label> Billing Address Line 02</label>
+        <input type ="text" name ="field7" required="true" value="" size="70"><br><br>
+		
+    <label> City</label>
+        <input type ="text" name ="field8" required="true" value="" size="70"><br><br>
+		
+	<label> Zip code</label>
+        <input type ="text" name ="field9" required="true" value="" size="70"><br><br>
+		
+	<label> State</label>
+        <input type ="text" name ="field10" required="true" value="" size="70"><br><br>
+		
+	<label> Telephone</label>
+        <input type ="text" name ="field11" required="true" value="" size="70"><br><br>
+    
+    <label> Email</label>
+        <input type ="text" name ="field12" required="true" value="" size="70"><br><br>
+  
+        <br><br><br><br>
+	<center>
+	
+    <input type="submit"  id="submitBtn" value="Pay Now">
+    </center>
+ </form>
+	
+	<hr id="test">
+	
+
+	<br>
+	<button><a href="Payment_Plans.html">Payment Plans</a></button>
+
+
+
+	<footer>
+		<p> &copy; 2023 Online Land Sales System. All rights reserved. </p>
+	</footer>
+	
+	<script src="JS/script.js"> </script>
+
+</body>
+</html>
